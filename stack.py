@@ -9,11 +9,11 @@ class my_stack:
 
     # remove an element
     def pop(self):
-        return self.stack.pop()
+        return self.stack.pop() # returns the element, allowing you to use/capture it
     
     # check if stack is empty
     def is_empty(self):
-        return len(self.stack) == 0
+        return len(self.stack) == 0 # "if stack:" also returns true if stack is not empty
     
     # check top element
     def peek(self):
@@ -37,3 +37,7 @@ evening
 afternoon
 morning
 """    
+
+# check if stack is empty before popping or peeking. You can use "if stack:"
+
+
